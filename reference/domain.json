@@ -1,0 +1,10 @@
+{
+  "event_types": ["income", "scheduled_transfer", "expense", "goal_change", "emergency"],
+  "goal_types": ["race_fee", "equipment", "travel", "emergency_reserve"],
+  "currencies": [
+    "CNY",
+    "HKD",
+    "USD"
+  ],
+  "quantity_precision": 6
+}
