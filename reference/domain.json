@@ -1,10 +1,15 @@
 {
   "event_types": ["income", "scheduled_transfer", "expense", "goal_change", "emergency"],
+  "trigger_types": ["income_change", "race_postponed", "emergency", "goal_change", "note"],
   "goal_types": ["race_fee", "equipment", "travel", "emergency_reserve"],
+  "goal_statuses": ["active", "completed", "cancelled"],
+  "deduction_statuses": ["pending", "paused", "executed", "cancelled"],
+  "timeline_kinds": ["income", "scheduled_transfer", "expense", "goal_change", "emergency", "goal_deadline", "training_block"],
   "currencies": [
     "CNY",
     "HKD",
     "USD"
   ],
-  "quantity_precision": 6
+  "quantity_precision": 6,
+  "value_date_rule": "bank_timezone_business_day"
 }
