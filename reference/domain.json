@@ -1,10 +1,20 @@
 {
   "event_types": ["income", "scheduled_transfer", "expense", "goal_change", "emergency"],
   "goal_types": ["race_fee", "equipment", "travel", "emergency_reserve"],
+  "goal_statuses": ["active", "completed"],
+  "deduction_statuses": ["scheduled", "executed", "paused", "cancelled"],
+  "trigger_types": ["baseline", "manual", "income_change", "medical_expense", "race_postponed", "bank_import"],
+  "expense_categories": ["housing", "utility", "insurance", "credit_installment", "living", "medical", "other"],
   "currencies": [
     "CNY",
     "HKD",
     "USD"
   ],
+  "default_priority": {
+    "emergency_reserve": 10,
+    "race_fee": 20,
+    "travel": 30,
+    "equipment": 40
+  },
   "quantity_precision": 6
 }
